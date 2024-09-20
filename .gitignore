@@ -1,6 +1,9 @@
 # Competition data
 data/
 
+# Info files produced by catboost
+catboost_info/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
