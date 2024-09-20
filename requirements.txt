@@ -8,3 +8,4 @@ catboost
 xgboost
 numba
 nbstripout
+category_encoders

@@ -1,5 +1,6 @@
 # Competition data
 data/
+submission.csv
 
 # Info files produced by catboost
 catboost_info/
