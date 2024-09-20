@@ -25,6 +25,7 @@ $cmd activate $env_path
 echo ">>> Installing pip dependencies"
 pip install --upgrade pip
 pip install -r requirements.txt
+nbstripout --install
 
 #========================================
 # Setup Git submodules
