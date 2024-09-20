@@ -33,6 +33,13 @@ echo ">>> Setting up git submodules"
 git submodule init
 git submodule update
 
+#========================================
+# Download Kaggle data
+#----------------------------------------
+kaggle competitions download -c child-mind-institute-problematic-internet-use
+unzip child-mind-institute-problematic-internet-use.zip -d data
+rm -rf child-mind-institute-problematic-internet-use.zip
+
 echo ">>> Done with environment set up"
 echo ">>> Activate with the following command"
 echo "          $cmd activate $env_path"

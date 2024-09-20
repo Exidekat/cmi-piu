@@ -1,2 +1,6 @@
+kaggle
 pandas
 polars
+matplotlib
+optuna
+catboost
