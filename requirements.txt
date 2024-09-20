@@ -5,3 +5,5 @@ polars
 matplotlib
 optuna
 catboost
+xgboost
+numba
