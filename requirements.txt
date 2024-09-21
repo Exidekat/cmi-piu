@@ -6,6 +6,7 @@ matplotlib
 optuna
 catboost
 xgboost
+lightgbm
 numba
 nbstripout
 category_encoders
