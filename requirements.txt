@@ -10,3 +10,4 @@ lightgbm
 numba
 nbstripout
 category_encoders
+umap-learn
